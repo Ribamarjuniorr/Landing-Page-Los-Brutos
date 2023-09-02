@@ -36,7 +36,7 @@ header{
     padding: 8px 24px;
     border-radius: 4px;
     color: $white-normal;
-    background-color: transparent;
+    background-color: transparentize($color: #000000, $amount: 0);
     transition: background-color 0.8s;
 }
 .header-button{
