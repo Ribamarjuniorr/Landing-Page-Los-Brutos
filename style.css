@@ -297,6 +297,10 @@ i {
   font-size: 10px;
 }
 
+.footer img {
+  width: 300px;
+}
+
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
