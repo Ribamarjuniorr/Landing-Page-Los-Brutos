@@ -47,7 +47,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 16px;
+    width: 400px;
+    background-color: transparent;
 
 }
 @media screen and (max-width: 768px) {
@@ -66,7 +68,7 @@ header{
      }
 
     .header-logo img {
-        width: 150px;
+        width: 400px;
         margin-top: 46px;
     }
     .header-button{

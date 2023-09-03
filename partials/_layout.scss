@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 768px){
   .hero{
-    min-height: 60vh;
+    min-height: 50vh;
 
     h1{
       font-size: 34px;
@@ -240,16 +240,19 @@
   align-items: center;
   justify-content: center;
   padding: 54px 0;
-  gap: 24px;
+  gap: 14px;
   color: $white-normal;
+  
 }
 
 .footer-icons{
   display: flex;
-  gap: 8px;
+  gap: 14px;
   color: $white-normal;
 }
-
+.footer p{
+  font-size: 10px;
+}
 // -------------------------
 
 // Botao whatsapp
@@ -261,7 +264,7 @@
 
 
   img{
-    max-width: 74px;
+    max-width: 64px;
     transition: transform 0.4s;
   }
 

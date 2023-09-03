@@ -54,7 +54,9 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 14px;
+  margin-top: 16px;
+  width: 400px;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
@@ -69,7 +71,7 @@ i {
     font-size: 36px;
   }
   .header-logo img {
-    width: 150px;
+    width: 400px;
     margin-top: 46px;
   }
   .header-button {
@@ -146,7 +148,7 @@ i {
 }
 @media screen and (max-width: 768px) {
   .hero {
-    min-height: 60vh;
+    min-height: 50vh;
   }
   .hero h1 {
     font-size: 34px;
@@ -281,14 +283,18 @@ i {
   align-items: center;
   justify-content: center;
   padding: 54px 0;
-  gap: 24px;
+  gap: 14px;
   color: #ffffff;
 }
 
 .footer-icons {
   display: flex;
-  gap: 8px;
+  gap: 14px;
   color: #ffffff;
+}
+
+.footer p {
+  font-size: 10px;
 }
 
 .btn-whatsapp {
@@ -298,7 +304,7 @@ i {
   z-index: 99;
 }
 .btn-whatsapp img {
-  max-width: 74px;
+  max-width: 64px;
   transition: transform 0.4s;
 }
 .btn-whatsapp img:hover {
