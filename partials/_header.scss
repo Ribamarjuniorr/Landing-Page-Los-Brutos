@@ -36,19 +36,19 @@ header{
     padding: 8px 24px;
     border-radius: 4px;
     color: $white-normal;
-    background-color: transparentize($color: #000000, $amount: 0);
-    transition: background-color 0.8s;
+    background-color: transparent;
+    transition: background-color 0.6s;
 }
-.header-button{
-    border: 1px solid $red-ligth;
-    background-color: $red-ligth;
+
 }
+
 .header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 16px;
-    width: 400px;
+    width: 1400px;
+    background-size: transparent;
     
 
 }
@@ -68,7 +68,7 @@ header{
      }
 
     .header-logo img {
-        width: 300px;
+        width: 1200px;
         margin-top: 46px;
     }
     .header-button{

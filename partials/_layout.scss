@@ -2,7 +2,7 @@
 .container{
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 12px;
 }
 
 .bg-home{
@@ -13,7 +13,7 @@
   content: '';
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/Svg\ faixada.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -27,7 +27,7 @@
 
 .hero{
   color: $white-normal;
-  min-height: 80vh;
+  min-height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -236,7 +236,7 @@
   font-size: 12px;
 }
 .footer img {
-  width: 600px;
+  width: 800px;
 
 }
 
