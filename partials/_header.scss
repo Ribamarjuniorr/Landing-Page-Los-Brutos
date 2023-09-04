@@ -39,6 +39,9 @@ header{
     background-color: transparent;
     transition: background-color 0.6s;
 }
+.header-button :hover {
+    border: 1px solid $red-ligth;
+    background-color: $red-ligth;
 
 }
 
