@@ -5,8 +5,6 @@
   padding: 0 8px;
 }
 
-// BG HOME
-
 .bg-home{
   position: relative;
 }
@@ -26,10 +24,6 @@
   background-position: 50% 0;
   opacity: 0.9;
 }
-
-// ---------------------------
-
-// HERO -----------
 
 .hero{
   color: $white-normal;
@@ -100,9 +94,6 @@
   }
 }
 
-// ------------------------------
-
-// sobre --------------
 .about{
   background-color: $primary-normal;
   overflow: hidden;
@@ -142,10 +133,6 @@
     flex-direction: column;
   }
 }
-
-// ---------------------------------
-
-// SERVICES
 
 .services{
   background-color: $white-normal;
@@ -230,10 +217,6 @@
   }
 }
 
-//----------------------
-
-// Footer
-
 .footer{
   display: flex;
   flex-direction: column;
@@ -241,7 +224,6 @@
   justify-content: center;
   padding: 54px 0;
   gap: 14px;
-  
   
 }
 
@@ -251,15 +233,13 @@
   color: $white-normal;
 }
 .footer p{
-  font-size: 10px;
+  font-size: 12px;
 }
 .footer img {
   width: 600px;
 
 }
--------------
 
-// Botao whatsapp
 .btn-whatsapp{
   position: fixed;
   bottom: 14px;
