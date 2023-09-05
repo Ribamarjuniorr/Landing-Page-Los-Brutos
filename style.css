@@ -277,6 +277,10 @@ i {
     max-width: 740px;
   }
 }
+.services h2 {
+  margin-top: -106px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
