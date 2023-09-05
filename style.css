@@ -22,7 +22,6 @@ i {
 .header-icons {
   display: flex;
   gap: 14px;
-  margin-top: -198px;
 }
 
 .header-icons a:hover i {
@@ -55,7 +54,6 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -140px;
   width: 600px;
 }
 
