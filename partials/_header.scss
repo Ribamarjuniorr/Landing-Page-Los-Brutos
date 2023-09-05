@@ -16,6 +16,7 @@ header{
     .header-icons {
         display: flex;
         gap: 14px;
+        margin-top: -198px;
     
     }
     .header-icons a:hover{
@@ -38,11 +39,14 @@ header{
     color: $white-normal;
     background-color: transparent;
     transition: background-color 0.6s;
+    
+    
 }
 
-    .header-button:hover{
+.header-button:hover{
         border: 2px solid $red-ligth;
         background-color: $red-dark;
+        
     }
 
 .header-logo {
@@ -76,6 +80,7 @@ header{
     }
     .header-button {
         display: none;
+        
         
     }
 }

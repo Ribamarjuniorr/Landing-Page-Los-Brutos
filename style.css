@@ -22,6 +22,7 @@ i {
 .header-icons {
   display: flex;
   gap: 14px;
+  margin-top: -198px;
 }
 
 .header-icons a:hover i {
@@ -157,10 +158,10 @@ i {
   }
   .hero p {
     font-size: 12px;
-    margin-top: 66px;
+    margin-top: 46px;
   }
   .hero .button-contact {
-    margin-top: 66px;
+    margin-top: 46px;
   }
 }
 @media screen and (max-width: 480px) {
