@@ -66,7 +66,7 @@ i {
     justify-content: center;
   }
   .header-content i {
-    margin-top: 16px;
+    margin-top: 36px;
     font-size: 36px;
   }
   .header-logo img {
@@ -153,10 +153,14 @@ i {
     font-size: 34px;
     padding: 0 14px;
     width: 100%;
-    margin-top: -266px;
+    margin-top: -226px;
   }
   .hero p {
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 66px;
+  }
+  .hero .button-contact {
+    margin-top: 66px;
   }
 }
 @media screen and (max-width: 480px) {
