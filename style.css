@@ -54,8 +54,8 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 16px;
-  width: 700px;
+  margin-top: -140px;
+  width: 600px;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,8 +70,11 @@ i {
     font-size: 36px;
   }
   .header-logo img {
-    width: 800px;
-    display: center;
+    width: 300px;
+    margin-top: 76px;
+  }
+  .header-button {
+    display: none;
   }
 }
 .container {
@@ -150,6 +153,7 @@ i {
     font-size: 34px;
     padding: 0 14px;
     width: 100%;
+    margin-top: -106px;
   }
   .hero p {
     font-size: 14px;
@@ -292,10 +296,12 @@ i {
 .footer p {
   font-size: 13px;
   color: #ffffff;
+  margin-top: -156px;
 }
 
 .footer img {
   width: 500px;
+  margin-top: -126px;
 }
 
 .btn-whatsapp {
