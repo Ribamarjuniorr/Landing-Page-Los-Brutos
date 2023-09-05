@@ -32,29 +32,28 @@ header{
     } 
 }
 .header-button {
-    border: 1px solid $white-normal;
-    padding: 8px 24px;
+    border: 2px solid $whiite-dark;
+    padding: 12px 24px;
     border-radius: 4px;
     color: $white-normal;
     background-color: transparent;
     transition: background-color 0.6s;
 }
-.header-button :hover {
-    border: 1px solid $red-ligth;
-    background-color: $red-ligth;
 
-}
+    .header-button:hover{
+        border: 2px solid $red-ligth;
+        background-color: $red-dark;
+    }
 
 .header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 16px;
-    width: 1400px;
-    background-size: transparent;
-    
-
+    width: 700px;
 }
+
+
 @media screen and (max-width: 768px) {
 
      .header-content{
@@ -71,11 +70,8 @@ header{
      }
 
     .header-logo img {
-        width: 1200px;
-        margin-top: 46px;
-    }
-    .header-button{
-        display: none;
+        width: 800px;
+        display: center;
     }
 }
     

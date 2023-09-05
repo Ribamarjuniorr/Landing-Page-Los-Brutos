@@ -13,7 +13,7 @@
   content: '';
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/Svg\ faixada.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -231,12 +231,14 @@
   display: flex;
   gap: 14px;
   color: $white-normal;
+  margin: -20px;
 }
 .footer p{
-  font-size: 12px;
+  font-size: 13px;
+  color: $white-normal;
 }
 .footer img {
-  width: 800px;
+  width: 500px;
 
 }
 

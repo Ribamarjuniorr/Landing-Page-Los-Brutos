@@ -36,13 +36,26 @@ i {
   }
 }
 
+.header-button {
+  border: 2px solid #edeaef;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: transparent;
+  transition: background-color 0.6s;
+}
+
+.header-button:hover {
+  border: 2px solid #d34040;
+  background-color: #b42b2b;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-  width: 800px;
-  background-size: 1200px;
+  width: 700px;
 }
 
 @media screen and (max-width: 768px) {
@@ -57,17 +70,14 @@ i {
     font-size: 36px;
   }
   .header-logo img {
-    width: 600px;
-    margin-top: 46px;
-  }
-  .header-button {
-    display: none;
+    width: 800px;
+    display: center;
   }
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 12px;
 }
 
 .bg-home {
@@ -78,7 +88,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/faixada2.png");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -92,7 +102,7 @@ i {
 
 .hero {
   color: #ffffff;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,11 +286,16 @@ i {
   display: flex;
   gap: 14px;
   color: #ffffff;
+  margin: -20px;
 }
 
 .footer p {
-  font-size: 12px;
+  font-size: 13px;
   color: #ffffff;
+}
+
+.footer img {
+  width: 500px;
 }
 
 .btn-whatsapp {
@@ -325,7 +340,7 @@ i {
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   background-color: #031017;
 }
@@ -346,4 +361,4 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}
+}/*# sourceMappingURL=style.css.map */
