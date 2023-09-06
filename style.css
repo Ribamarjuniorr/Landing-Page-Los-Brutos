@@ -48,7 +48,7 @@ header .header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 750px;
+  width: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,7 +59,7 @@ header .header-logo {
     justify-content: center;
   }
   .header-content i {
-    margin-top: 34px;
+    margin-top: 24px;
     font-size: 36px;
   }
   .header-logo img {
@@ -139,7 +139,7 @@ header .header-logo {
 }
 @media screen and (max-width: 768px) {
   .hero {
-    min-height: 50vh;
+    min-height: 50vw;
   }
   .hero h1 {
     font-size: 34px;
