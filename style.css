@@ -8,23 +8,20 @@
 header {
   width: 100%;
 }
-
-.header-content {
+header .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-i {
+header i {
   color: #ffffff;
 }
-
-.header-icons {
+header .header-icons {
   display: flex;
   gap: 14px;
+  color: #edeaef;
 }
-
-.header-icons a:hover i {
+header .header-icons a:hover i {
   color: #d34040;
 }
 @keyframes translateY {
@@ -35,8 +32,7 @@ i {
     transform: translateY(-8px) scale(1.1);
   }
 }
-
-.header-button {
+header .header-button {
   border: 2px solid #edeaef;
   padding: 12px 24px;
   border-radius: 4px;
@@ -44,17 +40,15 @@ i {
   background-color: transparent;
   transition: background-color 0.6s;
 }
-
-.header-button:hover {
+header .header-button:hover {
   border: 2px solid #d34040;
   background-color: #b42b2b;
 }
-
-.header-logo {
+header .header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 750px;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,15 +59,14 @@ i {
     justify-content: center;
   }
   .header-content i {
-    margin-top: 36px;
+    margin-top: 34px;
     font-size: 36px;
   }
   .header-logo img {
     width: 600px;
-    margin-top: 6px;
   }
   .header-button {
-    display: none;
+    visibility: hidden;
   }
 }
 .container {
@@ -152,14 +145,9 @@ i {
     font-size: 34px;
     padding: 0 14px;
     width: 100%;
-    margin-top: -226px;
   }
   .hero p {
     font-size: 12px;
-    margin-top: 46px;
-  }
-  .hero .button-contact {
-    margin-top: 46px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -280,10 +268,6 @@ i {
     max-width: 740px;
   }
 }
-.services h2 {
-  margin-top: -106px;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -295,21 +279,35 @@ i {
 
 .footer-icons {
   display: flex;
-  gap: 14px;
+  gap: 10px;
+  margin-top: -30px;
   color: #ffffff;
-  margin: -20px;
 }
 
 .footer p {
   font-size: 10px;
-  color: #ffffff;
-  margin-top: -56px;
+  color: #fefbff;
+  display: flex;
+  margin-top: -100px;
 }
 
 .footer img {
-  width: 500px;
+  width: 400px;
+  margin-top: -100px;
 }
 
+@media screen and (max-width: 768px) {
+  .rodape img {
+    width: 300px;
+    margin-top: -100px;
+  }
+  .rodape p {
+    color: #fefbff;
+  }
+  .footer-icons {
+    color: #ffffff;
+  }
+}
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
@@ -352,7 +350,7 @@ i {
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   background-color: #031017;
 }

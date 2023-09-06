@@ -3,6 +3,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 12px;
+  
 }
 
 .bg-home{
@@ -35,11 +36,15 @@
   justify-content: center;
   padding: 14px;
 
+  
+
   h1{
     text-align: center;
     line-height: 150%;
     max-width: 940px;
     font-size: 46px;
+    
+    
   }
 
   p{
@@ -56,6 +61,8 @@
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
+  
+  
 }
 
 .button-contact:hover{
@@ -79,16 +86,14 @@
       font-size: 34px;
       padding: 0 14px;
       width: 100%;
-      margin-top: -226px;
+    
     }
 
     p{
       font-size: 12px;
-      margin-top: 46px;
+      
     }
-    .button-contact {
-      margin-top: 46px;
-    }
+    
     
   }
 }
@@ -147,6 +152,8 @@
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
+  
+  
 }
 
 .services-content h2{
@@ -154,6 +161,9 @@
   text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
+  
+  
+  
 }
 
 .services-content p{
@@ -169,6 +179,7 @@
   align-items: center;
   gap: 16px;
   padding: 0 44px 34px 44px;
+  
 }
 
 .haircut{
@@ -210,6 +221,7 @@
   border-radius: 4px;
   border:0;
   cursor: default;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -220,9 +232,7 @@
   .haircut img{
     max-width: 740px;
   }
-}
-.services h2 {
-  margin-top: -106px;
+
 }
 .footer{
   display: flex;
@@ -232,25 +242,45 @@
   padding: 54px 0;
   gap: 14px;
   
+  
+  
+  
 }
 
 .footer-icons{
   display: flex;
-  gap: 14px;
+  gap: 10px;
+  margin-top: -30px;
   color: $white-normal;
-  margin: -20px;
+  
+  
 }
 .footer p{
   font-size: 10px;
-  color: $white-normal;
-  margin-top: -56px;
+  color: $white-ligth;
+  display: flex;
+  margin-top: -100px;
+  
 }
 .footer img {
   
-  width: 500px;
-
+  width: 400px;
+  margin-top: -100px;
 }
-
+@media screen and (max-width: 768px) {
+  .rodape img {
+    width: 300px;
+    margin-top: -100px;
+  }
+  .rodape p{
+  
+    color: $white-ligth;
+  
+  }
+  .footer-icons {
+    color: $white-normal;
+  }
+}
 .btn-whatsapp{
   position: fixed;
   bottom: 14px;
