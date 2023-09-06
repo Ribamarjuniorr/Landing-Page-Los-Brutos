@@ -241,7 +241,7 @@
   justify-content: center;
   padding: 54px 0;
   gap: 14px;
-  
+  color: $white-normal;
   
   
   
@@ -250,8 +250,7 @@
 .footer-icons{
   display: flex;
   gap: 10px;
-  margin-top: -30px;
-  color: $white-normal;
+
   
   
 }
@@ -259,27 +258,14 @@
   font-size: 10px;
   color: $white-ligth;
   display: flex;
-  margin-top: -100px;
+  
   
 }
 .footer img {
   
   width: 400px;
-  margin-top: -100px;
-}
-@media screen and (max-width: 768px) {
-  .rodape img {
-    width: 300px;
-    margin-top: -100px;
-  }
-  .rodape p{
-  
-    color: $white-ligth;
-  
-  }
-  .footer-icons {
-    color: $white-normal;
-  }
+
+
 }
 .btn-whatsapp{
   position: fixed;

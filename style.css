@@ -275,39 +275,24 @@ header .header-logo {
   justify-content: center;
   padding: 54px 0;
   gap: 14px;
+  color: #ffffff;
 }
 
 .footer-icons {
   display: flex;
   gap: 10px;
-  margin-top: -30px;
-  color: #ffffff;
 }
 
 .footer p {
   font-size: 10px;
   color: #fefbff;
   display: flex;
-  margin-top: -100px;
 }
 
 .footer img {
   width: 400px;
-  margin-top: -100px;
 }
 
-@media screen and (max-width: 768px) {
-  .rodape img {
-    width: 300px;
-    margin-top: -100px;
-  }
-  .rodape p {
-    color: #fefbff;
-  }
-  .footer-icons {
-    color: #ffffff;
-  }
-}
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
