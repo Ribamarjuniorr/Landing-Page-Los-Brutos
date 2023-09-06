@@ -19,7 +19,6 @@ header i {
 header .header-icons {
   display: flex;
   gap: 14px;
-  color: #edeaef;
 }
 header .header-icons a:hover i {
   color: #d34040;
