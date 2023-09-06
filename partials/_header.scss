@@ -64,36 +64,5 @@ header{
 }
 
 }
-@media screen and (max-width: 768px) {
 
-     .header-content{
-        
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-        
-
-        i{
-            margin-top: 24px;
-            font-size: 36px;
-            
-        }
-     }
-
-    .header-logo img {
-
-        width: 600px;
-        
-        
-    }
-    .header-button {
-    
-        visibility: hidden;
-        
-        
-    }
-    
-}
     

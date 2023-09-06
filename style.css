@@ -191,7 +191,7 @@ header .header-logo {
 }
 .services {
   background-color: #ffffff;
-  color: #232224;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,13 +246,13 @@ header .header-logo {
   display: flex;
   justify-content: space-between;
   padding: 14px;
-  background-color: #ffffff;
+  background-color: #031017;
   z-index: 99;
 }
 
 .haircut-info button {
-  color: #ffffff;
-  background-color: #D94140;
+  color: #fefbff;
+  background-color: #b42b2b;
   padding: 4px 8px;
   border-radius: 4px;
   border: 0;
@@ -274,17 +274,19 @@ header .header-logo {
   justify-content: center;
   padding: 54px 0;
   gap: 14px;
-  color: #ffffff;
+  background-color: #1a1f25;
 }
 
 .footer-icons {
   display: flex;
   gap: 10px;
+  font-size: 26px;
+  color: #fefbff;
 }
 
 .footer p {
   font-size: 10px;
-  color: #fefbff;
+  color: #edeaef;
   display: flex;
 }
 

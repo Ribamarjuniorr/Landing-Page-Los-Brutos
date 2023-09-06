@@ -27,7 +27,7 @@
 }
 
 .hero{
-  color: $white-normal;
+  color: $white-ligth;
   min-height: 100vh;
 
   display: flex;
@@ -78,31 +78,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
-  .hero{
-    min-height: 50vw;
 
-    h1{
-      font-size: 34px;
-      padding: 0 14px;
-      width: 100%;
-    
-    }
-
-    p{
-      font-size: 12px;
-      
-    }
-    
-    
-  }
-}
-
-@media screen and (max-width: 480px){
-  .hero h1{
-    font-size: 24px;
-  }
-}
 
 .about{
   background-color: $primary-normal;
@@ -138,15 +114,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .about-content{
-    flex-direction: column;
-  }
-}
+
 
 .services{
-  background-color: $white-normal;
-  color: $black-normal;
+  background-color: $secondary-dark;
+  color: $white-normal;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,13 +182,13 @@
   display: flex;
   justify-content: space-between;
   padding: 14px;
-  background-color: $white-normal;
+  background-color: $primary-normal;
   z-index: 99;
 }
 
 .haircut-info button{
-  color: $white-normal;
-  background-color: $red-normal;
+  color: $white-ligth;
+  background-color: $red-dark;
   padding: 4px 8px;
   border-radius: 4px;
   border:0;
@@ -224,24 +196,16 @@
   
 }
 
-@media screen and (max-width: 768px) {
-  .haircuts{
-    flex-direction: column;
-  }
 
-  .haircut img{
-    max-width: 740px;
-  }
-
-}
 .footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 54px 0;
   gap: 14px;
-  color: $white-normal;
+  background-color: $secondary-ligth;
+  
   
   
   
@@ -250,13 +214,15 @@
 .footer-icons{
   display: flex;
   gap: 10px;
+  font-size: 26px;
+  color: $white-ligth;
 
   
   
 }
 .footer p{
   font-size: 10px;
-  color: $white-ligth;
+  color: $whiite-normal;
   display: flex;
   
   
@@ -305,10 +271,3 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 768px){
-  .btn-whatsapp{
-    img{
-      max-width: 64px;
-    }
-  }
-}
