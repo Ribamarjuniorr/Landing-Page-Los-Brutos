@@ -2,9 +2,10 @@
 .container{
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 12px;
-  
+  padding: 0 8px;
 }
+
+// BG HOME
 
 .bg-home{
   position: relative;
@@ -26,9 +27,13 @@
   opacity: 0.9;
 }
 
+// ---------------------------
+
+// HERO -----------
+
 .hero{
-  color: $white-ligth;
-  min-height: 100vh;
+  color: $white-normal;
+  min-height: 80vh;
 
   display: flex;
   flex-direction: column;
@@ -36,15 +41,11 @@
   justify-content: center;
   padding: 14px;
 
-  
-
   h1{
     text-align: center;
     line-height: 150%;
     max-width: 940px;
     font-size: 46px;
-    
-    
   }
 
   p{
@@ -61,8 +62,6 @@
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
-  
-  
 }
 
 .button-contact:hover{
@@ -78,8 +77,32 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .hero{
+    min-height: 60vh;
 
+    h1{
+      font-size: 34px;
+      padding: 0 14px;
+      width: 100%;
+    }
 
+    p{
+      font-size: 14px;
+    }
+    
+  }
+}
+
+@media screen and (max-width: 480px){
+  .hero h1{
+    font-size: 24px;
+  }
+}
+
+// ------------------------------
+
+// About --------------
 .about{
   background-color: $primary-normal;
   overflow: hidden;
@@ -114,18 +137,24 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .about-content{
+    flex-direction: column;
+  }
+}
 
+// ---------------------------------
+
+// SERVICES
 
 .services{
-  background-color: $secondary-dark;
-  color: $white-normal;
+  background-color: $white-normal;
+  color: $black-normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
-  
-  
 }
 
 .services-content h2{
@@ -133,9 +162,6 @@
   text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
-  
-  
-  
 }
 
 .services-content p{
@@ -151,7 +177,6 @@
   align-items: center;
   gap: 16px;
   padding: 0 44px 34px 44px;
-  
 }
 
 .haircut{
@@ -182,57 +207,52 @@
   display: flex;
   justify-content: space-between;
   padding: 14px;
-  background-color: $primary-normal;
+  background-color: $white-normal;
   z-index: 99;
 }
 
 .haircut-info button{
-  color: $white-ligth;
-  background-color: $red-dark;
+  color: $white-normal;
+  background-color: $red-normal;
   padding: 4px 8px;
   border-radius: 4px;
   border:0;
   cursor: default;
-  
 }
 
+@media screen and (max-width: 768px) {
+  .haircuts{
+    flex-direction: column;
+  }
+
+  .haircut img{
+    max-width: 740px;
+  }
+}
+
+//----------------------
+
+// Footer
 
 .footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 54px 0;
-  gap: 14px;
-  background-color: $secondary-ligth;
-  
-  
-  
-  
+  gap: 24px;
+  color: $white-normal;
 }
 
 .footer-icons{
   display: flex;
-  gap: 10px;
-  font-size: 26px;
-  color: $white-ligth;
-
-  
-  
+  gap: 8px;
+  color: $white-normal;
 }
-.footer p{
-  font-size: 10px;
-  color: $whiite-normal;
-  display: flex;
-  
-  
-}
-.footer img {
-  
-  width: 400px;
 
+// -------------------------
 
-}
+// Botao whatsapp
 .btn-whatsapp{
   position: fixed;
   bottom: 14px;
@@ -241,7 +261,7 @@
 
 
   img{
-    max-width: 64px;
+    max-width: 74px;
     transition: transform 0.4s;
   }
 
@@ -271,3 +291,10 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 768px){
+  .btn-whatsapp{
+    img{
+      max-width: 64px;
+    }
+  }
+}
